@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation de l'Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>The documentation of the Shop3d application.</h1>
+    
+    <style>
+
+        /* Adding space between the <h1> and <h2> */
+            h1 {
+                margin-bottom: 20px; /* Adjust this value for more or less space */
+            }
+    
+            h2 {
+                margin-top: 20px; /* Adjust this value for more or less space */
+            }
+
+
+        /* Style pour ajuster la taille de la vidéo */
+        video {
+            width: 700px;  /* Largeur personnalisée */
+            height: 600px; /* Hauteur personnalisée */
+            max-width: 100%; /* S'adapte à l'écran si trop grand */
+            border-radius: 8px; /* Coins arrondis (optionnel) */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour l'effet visuel */
+        }
+
+        /* Style pour afficher les images à leur taille réelle */
+        .image-gallery {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .image-gallery img {
+            max-width: 100%; /* S'assure que l'image ne dépasse pas la largeur de l'écran */
+            height: auto; /* Garde les proportions de l'image */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    
+
+</header>
+
+<section class="content">
+    <h1>Author: Benallaoua Rayan</h1>
+    <h1>Application created on November 13, 2024</h1>
+    <h1>Never published on the Play Store</h1>
+
+    <h1>Thank you for choosing Shop3D! As a solo developer, your support means a lot to me. I hope the 3D models help bring your creative ideas to life. If you have any questions or feedback, feel free to reach out. Happy designing!</h1>
+    
+
+
+    <h2>Firebaze (Model3DLoader_Activity.kt)</h2>
+    <div class="image-gallery">
+        <!-- Remplacez les images ci-dessous par vos images -->
+        <img src="2.png" alt="Image extraite de la vidéo 1">
+        <p>You need to create a Firebase account and upload the .glb files for the 3D models. It is recommended to compress the .glb 3D models before uploading them, as this will optimize the experience.</p>
+    </div>
+    
+
+
+
+
+    <h2>Github (DownloadImage.kt)</h2>
+    <div class="image-gallery">
+        <!-- Remplacez les images ci-dessous par vos images -->
+        <img src="5.png" alt="Image extraite de la vidéo 1">
+        <p>the image file names should match the .glb file names, for example, char1.jpg and char1.glb .You need to create a GitHub account and upload a zip file named image.zip, which contains 3D model images at recommandation a resolution of 512x512.</p>
+    </div>
+   
+
+
+
+
+
+    <h2>Link of buttan (Model3DLoader_Activity.kt) </h2>
+    <div class="image-gallery">
+        <!-- Remplacez les images ci-dessous par vos images -->
+        <img src="1.png" alt="Image extraite du texte 1">
+        <p>The green button is certainly meant to mislead the user on a website. </p>
+        <img src="12.png" alt="Image extraite du texte 1">
+    </div>
+
+
+    <h2>Json file (assets/animation.json) </h2>
+    <div class="image-gallery">
+        <!-- Remplacez les images ci-dessous par vos images -->
+        <img src="3.png" alt="Image extraite de la vidéo 1">
+        <p>
+
+            This JSON file contains the name of the navigation image, for example 'character', and the names of the 3D models. It is structured in this format: 'character' : [[model1, animation1, animation2, ..., animation N]]. If there are no animations, the animation button is not displayed, and only the model is shown.
+        </p>
+        <img src="13.jpg" alt="Image extraite de la vidéo 1">
+    </div>
+
+    <h2>res/drawable (the navigation image) </h2>
+    <div class="image-gallery">
+        <!-- Remplacez les images ci-dessous par vos images -->
+        <img src="4.png" alt="Image extraite du texte 1">
+        <p>These are the navigation images between models, for example, gun, moto, car etc. You can add as many as you want, but they need to be defined in animation.json</p>
+        
+    </div>
+
+
+    <h2>Start APP (MainActivity.kt) </h2>
+    <div class="image-gallery">
+        <!-- Remplacez les images ci-dessous par vos images -->
+        <img src="6.png" alt="Image extraite du texte 1">
+        <p>You can modify the start screen text and image of the application. This image is defined in the drawable folder (loading.jpg) and will be displayed the first time. To update it, download the images.zip from GitHub.</p>
+        
+    </div>
+
+    <h2>the dialog box (MytopAppBar.kt) </h2>
+    <div class="image-gallery">
+        <!-- Remplacez les images ci-dessous par vos images -->
+        <img src="popWhite.png" alt="Image extraite du texte 1">
+        <img src="7.png" alt="Image extraite du texte 1">
+        <p>You can modify the dialog box text here.</p>
+        
+    </div>
+
+    <h2>the dialog box (Slider_Lumier.kt) </h2>
+    <div class="image-gallery">
+        <!-- Remplacez les images ci-dessous par vos images -->
+        <img src="pupYllow.png" alt="Image extraite du texte 1">
+        <img src="8.png" alt="Image extraite du texte 1">
+        <p>You can modify the dialog box text here.</p>
+        <img src="9.png" alt="Image extraite du texte 1">
+        <p>Be careful, if this value is 0f, it won’t be visible during development because its scale is 0f. It will gradually increase when the application starts. If you want to see it during development, set it to 1f just for testing.</p>
+        
+    </div>
+
+    <h2>Top Bar Application (MytopAppBar.kt) </h2>
+    <div class="image-gallery">
+        <!-- Remplacez les images ci-dessous par vos images -->
+        <img src="11.png" alt="Image extraite du texte 1">
+        
+        <p>The info icon displays the dialog box, and the number that increases represents the number of 3D models in the application. The shopping icon links to a website.</p>
+        
+    </div>
+
+
+
+    
+
+
+
+
+
+    <h2>Download glb file in Firebase</h2>
+    <video controls>
+        <source src="2.mp4" type="video/mp4">
+        <p>The download of the .glb file from Firebase occurs only once, and the model is saved in the application's cache. This approach reduces server access and conserves bandwidth.</p>
+
+    </video>
+
+
+
+    <h2>random image</h2>
+    <video controls>
+        <source src="3.mp4" type="video/mp4">
+        <p>The 3D models are displayed in a random manner.</p>
+
+    </video>
+
+</section>
+
+<footer>
+    <p>&copy; 2024 Shop3D - All rights reserved</p>
+</footer>
+
+</body>
+</html>
